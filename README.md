@@ -1,3 +1,7 @@
-Hi, it's just a repo without any pretention, I want to offer to every modding communities the most filled listfile !
+# How to add things 
 
-It's containing a lot of Legion's things, you can help, if you want to colaborate, don't hesitate to ask !
+* `./normalize.sh`
+* if `git status` has modifications, `git add listfile.txt && git commit -m "normalisation permutation"`
+* `cat >> listfile.txt`
+* `./normalize.sh`
+* `git add listfile.txt && git commit -m "$message"`
